@@ -5,7 +5,7 @@
 
 ## 环境
 
-我是Python 3.10.5
+Python 3.10.6
 
 ```python
 pip install -r .\requirements.txt
