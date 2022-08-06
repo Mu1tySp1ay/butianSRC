@@ -43,3 +43,32 @@ python .\butian.py
 访问频率过快，server端会回复一段混淆处理过的JS代码让client端执行并返回执行结果，
 
 故全部爬取耗时较长sleep(1)。
+
+***
+
+python和包都用的截至22/8/7最新的
+
+#### python下载地址
+
+[Download Python | Python.org](https://www.python.org/downloads/)
+
+#### 更新全部包
+
+##### 更新pip
+
+```python
+python3 -m pip install --upgrade pip
+```
+
+##### 更新包
+
+```python
+# 列出全部包
+pip list
+
+# 安装更新全部包的第三方库
+pip3 install pip-review
+
+# 更新
+pip-review --local --interactive
+```
